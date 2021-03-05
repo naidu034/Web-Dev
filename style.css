@@ -73,18 +73,20 @@ li > a {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  max-width: 100%;
 }
 
 th,
 td {
   padding: 15px;
+  text-align: center;
   border: 1px solid #a4a4a4;
   height: 30px;
 }
 
 th {
-  text-align: left;
+  min-width: 125px;
+  text-align: center;
   background-color: #ececec49;
 }
 
