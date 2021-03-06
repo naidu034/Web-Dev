@@ -7,14 +7,15 @@
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
+    
     <body class="container">
 	<div >
         <div id="header">
             <a href="#" class="logo">
                 <img src="./img/logo.jpg" alt="">
             </a>
-            <nav>  
-                 <li><a href="#sub">Subscribe</a></li>
+            <nav> <div class="s"> 
+                 <li ><a href="#sub" style=" border: 1px solid red;border-radius: 3px;">Subscribe</a></li></div>
                  <li><a href="#movies">Movies</a></li>
                  <li><a href="#identity">Alter Ego</a></li> 
                  <li><a href="#enemies">Enemies</a></li> 
@@ -42,7 +43,7 @@ The weapons systems of the suit have changed over the years, but Iron Man's stan
             <div class="list_box">
 
                  
-                    <h2>Powers and Abilities</h2>
+                    <h2 class="h2">Powers and Abilities</h2>
 
                     <ul>
                         <li>Wears modular arc reactor-powered Iron Man armor, granting superhuman strength & durability, the ability to fly & project Repulsor blasts</li>
@@ -52,7 +53,7 @@ The weapons systems of the suit have changed over the years, but Iron Man's stan
                 
             </div>
             <div id="allies"> 
-                <h2>Allies</h2>
+                <h2 class="h2">Allies</h2>
                 <center>
                 <div class="thumbnail" > 
                     <img src="./img/captain.jpg" />
@@ -122,7 +123,7 @@ The weapons systems of the suit have changed over the years, but Iron Man's stan
             </div>
 
             <div id="enemies"> 
-                <h2>Enemies</h2>
+                <h2 class="h2">Enemies</h2>
                 <center>
                 <div class="thumbnail" > 
                     <img src="./img/Obadiah Stane.jpg" />
@@ -154,7 +155,7 @@ The weapons systems of the suit have changed over the years, but Iron Man's stan
             </div>
 
             <div id="identity">
-                <h2 >Alter Ego: Anthony Edward ' Tony ' Stark</h2>
+                <h2 style="color: #daa520;">Alter Ego: Anthony Edward ' Tony ' Stark</h2>
                 <img src="./img/tony.jpg"  id="image" />
 
                 <p>Tony Stark is an inventive genius whose expertise in the fields of mathematics, physics, chemistry, and computer science rivals that of Reed Richards, Hank Pym, and Bruce Banner, and his expertise in electrical engineering and mechanical engineering surpasses even theirs.
@@ -164,7 +165,7 @@ The weapons systems of the suit have changed over the years, but Iron Man's stan
             </div>
 
             <div id="movies"> 
-                <h2 >Movies</h2>
+                <h2 class="h2">Movies</h2>
                 <center>
                 <div class="thumbnail" > 
                     <img src="./img/ironman.jpg" />
@@ -203,15 +204,33 @@ The weapons systems of the suit have changed over the years, but Iron Man's stan
                     <h4>Avengers: Endgame<br> (2019) </h4>
                 </div></center>
             </div>
+            <center>
 			<div id="sub">
-			<center>
-			<h4> Subscribe to our newsletter</h4>
-			<form>
-			<input type="text">
-			<input type="submit" value="Subscribe">
-			</form>
-			</center>
-			</div>
+                <div  class="form">
+			
+			<h4 > Subscribe to our newsletter</h4>
+            <form >
+                <div>
+                    <label for="name">Name : </label>
+                  
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                  
+                    <label for="mail">E-Mail : </label>
+                  
+                    <input type="text" id="mail" name="mail">
+                  
+                </div>
+                
+                <div >
+                  <input type="submit" value="Subscribe">
+                </div>
+                </form>
+			
+              </div>
+
+			</div></center>
 			
          </div>
         <footer>
