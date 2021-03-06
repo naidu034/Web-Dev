@@ -15,6 +15,7 @@ body {
   background-position: center;
   font-family: "Roboto", sans-serif;
   max-width: 1080px;
+  align-items: center;
 }
 
 p {
@@ -85,7 +86,6 @@ td {
 }
 
 th {
-  min-width: 125px;
   text-align: center;
   background-color: #ececec49;
 }
